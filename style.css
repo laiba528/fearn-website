@@ -1,0 +1,1126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.first {
+  height: 600px;
+  width: 100%;
+  background-image: url(https://themewagon.github.io/feane/images/hero-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 2;
+}
+#particles-js {
+  height: 100%;
+  width: 100%;
+  z-index: -10;
+  position: absolute;
+}
+nav {
+  background-color: transparent;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  padding-top: 15px;
+  margin-left: 80px;
+}
+.navanchers {
+  display: flex;
+  gap: 50px;
+  font-family: sans-serif;
+  margin-left: 180px;
+  margin-right: 20px;
+}
+.navanchers a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  transition: color 0.03s ease;
+}
+.navanchers a:hover {
+  color: #ffbe33;
+}
+.icons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.feane a {
+  text-decoration: none;
+  color: white;
+  font-size: 32px;
+  font-style: italic;
+}
+.feane a:hover {
+  color: #ffbe33;
+}
+.navanchers .home {
+  color: #ffbe33;
+}
+.icons a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 19px;
+}
+.icons .a:hover {
+  color: #ffbe33;
+}
+.datafirst {
+  height: 250px;
+  width: 45%;
+  margin-top: 90px;
+  margin-left: 80px;
+  padding: 10px;
+  color: white;
+}
+.datafirst p {
+  margin-top: 20px;
+  line-height: 25px;
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+.datafirst h2 {
+  font-size: 40px;
+  font-style: italic;
+}
+.dfbtn {
+  margin-top: 23px;
+  color: white;
+}
+
+/* second section */
+.second {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+}
+.burger {
+  height: 200px;
+  width: 40%;
+  background-color: #222831;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+  align-items: center;
+}
+.innerdata {
+  height: 180px;
+  width: 32%;
+  margin-top: 50px;
+  line-height: 40px;
+  font-size: larger;
+  font-style: italic;
+}
+.innerdata button {
+  width: 160px;
+  height: 40px;
+  background-color: #ffbe33;
+  border: none;
+  border-radius: 25px;
+  margin-top: 10px;
+  font-size: large;
+  color: white;
+}
+.span {
+  font-family: "Dancing Script", cursive;
+  font-size: 32px;
+  font-weight: lighter;
+}
+.pizza {
+  height: 200px;
+  width: 40%;
+  background-color: #222831;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+  align-items: center;
+}
+.burgerimg {
+  background-image: url(https://themewagon.github.io/feane/images/o1.jpg);
+}
+.pizzaimg {
+  background-image: url(https://themewagon.github.io/feane/images/o2.jpg);
+}
+.burgerimg,
+.pizzaimg {
+  height: 180px;
+  width: 35%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  border: 5px solid #f2aa0e;
+  margin-left: 23px;
+  transition: background-size 0.04s ease;
+}
+.burger:hover .burgerimg {
+  background-size: 110%;
+}
+.pizza:hover .pizzaimg {
+  background-size: 110%;
+}
+
+/* third section */
+.third .h2 {
+  text-align: center;
+  font-style: italic;
+  font-size: x-large;
+}
+.items {
+  height: 70px;
+  width: 50%;
+  margin: auto;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.items a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+  cursor: pointer;
+}
+.items a:active {
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+  height: 40px;
+  width: 80px;
+  text-align: center;
+}
+.items .firsta {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  height: 40px;
+  width: 70px;
+  text-align: center;
+}
+.menu {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine {
+  height: 460px;
+  width: 29%;
+  background-color: #222831;
+  border-radius: 15px;
+}
+.one1,
+.two1,
+.three1,
+.four1,
+.five1,
+.six1,
+.seven1,
+.eight1,
+.nine1 {
+  height: 230px;
+  width: 100%;
+  background-color: rgb(241, 242, 243);
+  border-radius: 15px 15px 0px 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 55px;
+}
+.oneimg,
+.twoimg,
+.threeimg,
+.fourimg,
+.fiveimg,
+.siximg,
+.sevenimg,
+.eightimg,
+.nineimg {
+  width: 75%;
+  height: 195px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  box-sizing: border-box;
+  transition: transform 0.5s ease;
+}
+.oneimg {
+  background-image: url(https://themewagon.github.io/feane/images/f1.png);
+}
+.twoimg {
+  background-image: url(https://themewagon.github.io/feane/images/f2.png);
+}
+.threeimg {
+  background-image: url(https://themewagon.github.io/feane/images/f3.png);
+}
+.fourimg {
+  background-image: url(https://themewagon.github.io/feane/images/f4.png);
+}
+.fiveimg {
+  background-image: url(https://themewagon.github.io/feane/images/f5.png);
+}
+.siximg {
+  background-image: url(https://themewagon.github.io/feane/images/f6.png);
+}
+.sevenimg {
+  background-image: url(https://themewagon.github.io/feane/images/f7.png);
+}
+.eightimg {
+  background-image: url(https://themewagon.github.io/feane/images/f8.png);
+}
+.nineimg {
+  background-image: url(https://themewagon.github.io/feane/images/f9.png);
+}
+
+.one:hover .oneimg,
+.two:hover .twoimg,
+.three:hover .threeimg,
+.four:hover .fourimg,
+.five:hover .fiveimg,
+.six:hover .siximg,
+.seven:hover .sevenimg,
+.eight:hover .eightimg,
+.nine:hover .nineimg {
+  transform: scale(1.1);
+}
+.detailbox {
+  height: 200px;
+  color: white;
+  line-height: 1.6rem;
+  padding: 25px;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-top: 8px;
+}
+.detailbox p {
+  font-size: 17px;
+}
+.divoptions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.divoptions .ai {
+  text-decoration: none;
+  background-color: #ffbe33;
+  color: white;
+  border-radius: 100%;
+  padding: 10px;
+  text-align: center;
+  font-size: bolder;
+  cursor: pointer;
+}
+.detailbox h3 {
+  padding-bottom: 10px;
+}
+.btnbox {
+  height: 70px;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.menubtn {
+  margin-top: 23px;
+  margin: auto;
+}
+
+/* section fourth */
+.fourth {
+  background-color: #222831;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 880px;
+  width: 100%;
+  margin-top: 80px;
+}
+.fourthimg {
+  height: 680px;
+  width: 39%;
+  background-image: url(https://themewagon.github.io/feane/images/about-img.png);
+  background-size: cover;
+  background-position: center;
+}
+.fouthdata {
+  height: 680px;
+  width: 39%;
+  padding: 25px;
+  padding-top: 200px;
+  color: white;
+}
+.fouthdata h2 {
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+}
+.pfd {
+  width: 115%;
+  height: 115px;
+  margin-top: 1rem;
+  line-height: 24px;
+  margin-bottom: 60px;
+  font-family: sans-serif;
+}
+.fourthbtn {
+  margin-top: 100px;
+  margin: auto;
+}
+
+/* fifth section */
+.fifth {
+  height: 600px;
+  width: 100%;
+  margin-top: 100px;
+}
+.fifth h2 {
+  height: 30px;
+  font-size: 40px;
+  font-weight: lighter;
+  font-style: italic;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+.fifthsec {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.fifth form {
+  height: 350px;
+  width: 45%;
+}
+.fifth iframe {
+  height: 350px;
+  width: 45%;
+}
+.fifthsec .input {
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  margin-bottom: 22px;
+  padding: 15px;
+  color: black;
+  font-size: 16px;
+  border: 1px solid #999;
+}
+iframe {
+  border-radius: 15px;
+}
+.fifthbtn {
+  margin-top: 23px;
+  margin-left: 50px;
+}
+
+/* section sixth */
+.sixth {
+  height: 600px;
+  width: 100%;
+}
+.sixth h2 {
+  text-align: center;
+  font-style: italic;
+  font-size: 35px;
+  margin-bottom: 60px;
+}
+.sixin {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.sixbox1,
+.sixbox2 {
+  height: 350px;
+  width: 45%;
+}
+.sixtext {
+  height: 180px;
+  width: 100%;
+  background-color: #222831;
+  color: white;
+  padding: 25px;
+  line-height: 22px;
+  border-radius: 8px;
+}
+.sixtext h3 {
+  font-size: 1.4rem;
+  margin-top: 19px;
+  margin-bottom: 5px;
+}
+.client1,
+.client2 {
+  height: 115px;
+  width: 21%;
+  border: 5px solid #ffbe33;
+  border-radius: 100%;
+  margin-top: 33px;
+  margin-left: 25px;
+}
+.client1 {
+  background-image: url(https://themewagon.github.io/feane/images/client2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.client2 {
+  background-image: url(https://themewagon.github.io/feane/images/client1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.sixth .icons i {
+  height: 50px;
+  width: 50px;
+  background-color: #ffbe33;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 23px;
+  border-radius: 50%;
+  color: white;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+/* section seventh */
+.seventh {
+  width: 100%;
+  height: 430px;
+  background-color: #222831;
+  padding-top: 65px;
+  color: white;
+}
+.footer {
+  margin-bottom: 35px;
+  display: flex;
+  justify-content: center;
+}
+.footer1,
+.footer2,
+.footer3 {
+  height: 220px;
+  width: 31%;
+  text-align: center;
+  padding: 20px;
+  line-height: 28px;
+}
+.f2i {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.f2i i {
+  color: black;
+  font-weight: bolder;
+}
+.f2i a {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.03s;
+}
+.f2i a:hover {
+  background-color: #f2aa0e;
+}
+.seventh p {
+  color: #dbdbdb;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+.footer a:hover {
+  color: #ffbe33;
+}
+.footer h2 {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  margin-bottom: 15px;
+}
+.seventh h6 {
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+.seventh h6 a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* button */
+button {
+  width: 170px;
+  height: 40px;
+  background-color: #ffbe33;
+  border: none;
+  border-radius: 25px;
+  font-size: large;
+  transition: color 0.5s ease;
+}
+button:hover {
+  background-color: #f2aa0e;
+  cursor: pointer;
+}
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+/*
+   HAMBURGER MENU  (hidden on desktop, shown on mobile/tablet)
+   */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: 20px;
+}
+.hamburger span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+/* 
+   TABLET  —  max-width: 1024px
+*/
+@media (max-width: 1024px) {
+  /* NAV */
+  nav {
+    gap: 30px;
+    margin-left: 30px;
+  }
+  .navanchers {
+    margin-left: 30px;
+    gap: 25px;
+  }
+  .navanchers a {
+    font-size: 15px;
+  }
+
+  /* HERO */
+  .datafirst {
+    width: 60%;
+    margin-left: 30px;
+  }
+
+  /* SECOND */
+  .second {
+    height: auto;
+    padding: 30px 20px;
+  }
+  .burger,
+  .pizza {
+    width: 45%;
+  }
+
+  /* THIRD — menu cards: 2 per row */
+  .one,
+  .two,
+  .three,
+  .four,
+  .five,
+  .six,
+  .seven,
+  .eight,
+  .nine {
+    width: 45%;
+  }
+  .items {
+    width: 70%;
+    gap: 25px;
+  }
+
+  /* FOURTH */
+  .fourth {
+    height: auto;
+    padding: 60px 20px;
+    flex-direction: column;
+    text-align: center;
+  }
+  .fourthimg {
+    width: 70%;
+    height: 400px;
+  }
+  .fouthdata {
+    width: 80%;
+    height: auto;
+    padding-top: 40px;
+  }
+  .pfd {
+    width: 100%;
+  }
+
+  /* FIFTH */
+  .fifth {
+    height: auto;
+  }
+  .fifthsec {
+    flex-direction: column;
+    align-items: center;
+  }
+  .fifth form,
+  .fifth iframe {
+    width: 80%;
+  }
+  .fifth iframe {
+    height: 300px;
+    margin-top: 20px;
+  }
+  .fifthbtn {
+    margin-left: 10%;
+  }
+
+  /* SIXTH */
+  .sixth {
+    height: auto;
+    padding-bottom: 40px;
+  }
+  .sixin {
+    flex-direction: column;
+    align-items: center;
+  }
+  .sixbox1,
+  .sixbox2 {
+    width: 80%;
+    height: auto;
+  }
+  .sixtext {
+    height: auto;
+  }
+
+  /* SEVENTH */
+  .seventh {
+    height: auto;
+    padding: 40px 20px;
+  }
+  .footer {
+    flex-wrap: wrap;
+  }
+  .footer1,
+  .footer2,
+  .footer3 {
+    width: 50%;
+    height: auto;
+  }
+}
+
+/* 
+   MOBILE  —  max-width: 768px
+  */
+@media (max-width: 768px) {
+  /* NAV — hamburger menu */
+  nav {
+    margin-left: 15px;
+    gap: 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 12px 15px;
+    position: relative;
+  }
+  .navanchers {
+    display: none; /* hidden until hamburger is clicked */
+    flex-direction: column;
+    width: 100%;
+    background-color: #222831;
+    margin-left: 0;
+    margin-right: 0;
+    gap: 0;
+    padding: 10px 0;
+    order: 3;
+  }
+  .navanchers.open {
+    display: flex;
+  } /* JS toggles this */
+  .navanchers a {
+    padding: 12px 20px;
+    font-size: 16px;
+    border-bottom: 1px solid #333;
+  }
+  .icons {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    padding: 10px 20px;
+    background-color: #222831;
+    order: 4;
+  }
+  .icons.open {
+    display: flex;
+  }
+  .hamburger {
+    display: flex;
+  }
+
+  /* HERO */
+  .first {
+    height: auto;
+    min-height: 500px;
+    padding-bottom: 40px;
+  }
+  .datafirst {
+    width: 90%;
+    margin-left: 15px;
+    margin-top: 50px;
+    height: auto;
+  }
+  .datafirst h2 {
+    font-size: 28px;
+  }
+  .datafirst p {
+    font-size: 14px;
+  }
+
+  /* SECOND */
+  .second {
+    flex-direction: column;
+    height: auto;
+    padding: 30px 15px;
+    gap: 20px;
+  }
+  .burger,
+  .pizza {
+    width: 95%;
+    height: auto;
+    padding: 15px;
+  }
+  .burgerimg,
+  .pizzaimg {
+    width: 120px;
+    height: 120px;
+    flex-shrink: 0;
+    margin-left: 10px;
+  }
+  .innerdata {
+    width: auto;
+    height: auto;
+    margin-top: 0;
+    line-height: 30px;
+    font-size: medium;
+  }
+  .span {
+    font-size: 24px;
+  }
+
+  /* THIRD */
+  .third {
+    padding: 20px 10px;
+  }
+  .third .h2 {
+    font-size: large;
+  }
+  .items {
+    width: 95%;
+    gap: 10px;
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .items a {
+    font-size: 15px;
+    padding: 8px;
+  }
+  .one,
+  .two,
+  .three,
+  .four,
+  .five,
+  .six,
+  .seven,
+  .eight,
+  .nine {
+    width: 90%; /* 1 per row on mobile */
+    height: auto;
+  }
+  .one1,
+  .two1,
+  .three1,
+  .four1,
+  .five1,
+  .six1,
+  .seven1,
+  .eight1,
+  .nine1 {
+    height: 200px;
+    padding: 30px;
+  }
+  .detailbox {
+    height: auto;
+    padding: 15px;
+    font-size: 17px;
+  }
+
+  /* FOURTH */
+  .fourth {
+    flex-direction: column;
+    height: auto;
+    padding: 40px 15px;
+    margin-top: 40px;
+    text-align: center;
+  }
+  .fourthimg {
+    width: 90%;
+    height: 300px;
+  }
+  .fouthdata {
+    width: 90%;
+    height: auto;
+    padding-top: 30px;
+  }
+  .fouthdata h2 {
+    font-size: 28px;
+  }
+  .pfd {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .fourthbtn {
+    margin-top: 20px;
+  }
+
+  /* FIFTH */
+  .fifth {
+    height: auto;
+    margin-top: 50px;
+    padding-bottom: 40px;
+  }
+  .fifth h2 {
+    font-size: 28px;
+    margin-left: 15px;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .fifthsec {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .fifth form {
+    width: 90%;
+    height: auto;
+  }
+  .fifth iframe {
+    width: 90%;
+    height: 250px;
+    margin-top: 0;
+  }
+  .fifthbtn {
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+
+  /* SIXTH */
+  .sixth {
+    height: auto;
+    padding: 30px 15px;
+  }
+  .sixth h2 {
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
+  .sixin {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .sixbox1,
+  .sixbox2 {
+    width: 95%;
+    height: auto;
+  }
+  .sixtext {
+    height: auto;
+    padding: 20px;
+  }
+  .client1,
+  .client2 {
+    width: 80px;
+    height: 80px;
+  }
+  .sixth .icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  /* SEVENTH (Footer) */
+  .seventh {
+    height: auto;
+    padding: 40px 15px 20px;
+  }
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer1,
+  .footer2,
+  .footer3 {
+    width: 95%;
+    height: auto;
+    padding: 15px;
+  }
+  .seventh h6 {
+    font-size: 14px;
+    line-height: 30px;
+  }
+
+  /* BUTTONS */
+  button {
+    width: 150px;
+    font-size: medium;
+  }
+}
+
+/* 
+   SMALL MOBILE  —  max-width: 480px
+ */
+@media (max-width: 480px) {
+  .feane a {
+    font-size: 24px;
+  }
+
+  /* HERO */
+  .datafirst h2 {
+    font-size: 22px;
+  }
+  .datafirst p {
+    font-size: 13px;
+    line-height: 22px;
+  }
+
+  /* SECOND */
+  .burgerimg,
+  .pizzaimg {
+    width: 90px;
+    height: 90px;
+  }
+  .innerdata {
+    font-size: small;
+    line-height: 25px;
+  }
+  .span {
+    font-size: 20px;
+  }
+  .innerdata button {
+    width: 130px;
+    font-size: medium;
+  }
+
+  /* THIRD */
+  .items {
+    gap: 5px;
+  }
+  .items a {
+    font-size: 13px;
+    padding: 6px;
+  }
+  .one,.two,.three,.four,.five,.six,.seven,.eight,.nine {
+    width: 95%;
+  }
+  .one1,.two1,.three1,.four1,.five1,.six1,.seven1,.eight1,.nine1 {
+    height: 170px;
+    padding: 20px;
+  }
+  .detailbox {
+    font-size: 15px;
+  }
+  .detailbox p {
+    font-size: 13px;
+  }
+
+  /* FOURTH */
+  .fourthimg {
+    height: 220px;
+  }
+  .fouthdata h2 {
+    font-size: 22px;
+  }
+
+  /* FIFTH */
+  .fifth h2 {
+    font-size: 22px;
+  }
+  .fifthsec .input {
+    height: 44px;
+    font-size: 14px;
+  }
+  .fifth iframe {
+    height: 200px;
+  }
+
+  /* SIXTH */
+  .sixth h2 {
+    font-size: 20px;
+  }
+  .sixtext {
+    font-size: 14px;
+  }
+  .client1,
+  .client2 {
+    width: 65px;
+    height: 65px;
+    border-width: 3px;
+  }
+
+  /* SEVENTH */
+  .footer h2 {
+    font-size: 22px;
+  }
+  .seventh h6 {
+    font-size: 12px;
+  }
+
+  /* BUTTON */
+  button {
+    width: 135px;
+    height: 38px;
+    font-size: small;
+  }
+}
