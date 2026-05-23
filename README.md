@@ -1,12 +1,6 @@
 **Feane Restaurant Website**
+Modern and responsive website for Feane Fast Food Restaurant, 
+built with HTML5 and CSS3. Features an elegant design, 
+interactive menu, table booking system, and mobile-friendly interface.
 
-A professional, modern, and fully responsive  website for a fast food restaurant. Developed using pure HTML5 and CSS3 with a focus on clean design, user experience, and mobile responsiveness.
 
-Key Features:
-• Responsive Navigation Menu
-• Eye-catching Hero Section
-• Dynamic Menu Showcase  
-• Table Reservation System
-• Customer Reviews Section
-
-This project demonstrates my skills in front-end web development.
